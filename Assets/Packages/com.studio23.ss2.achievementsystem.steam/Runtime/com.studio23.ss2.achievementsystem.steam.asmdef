@@ -1,0 +1,16 @@
+{
+    "name": "com.studio23.ss2.achievementsystem.steam",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d71212f901861074293b8c1e6f53d45f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
