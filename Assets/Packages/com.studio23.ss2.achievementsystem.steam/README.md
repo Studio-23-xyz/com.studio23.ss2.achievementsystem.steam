@@ -1,5 +1,5 @@
 <h1 align="center">AchievementSystem.Steam</h1><p align="center">
-<a href="https://openupm.com/packages/com.studio23.ss2.achievementsystem.steam/"><img src="https://img.shields.io/npm/v/com.studio23.ss2.com.studio23.ss2.achievementsystem.steam?label=openupm&amp;registry_uri=https://package.openupm.com" /></a>
+<a href="https://openupm.com/packages/com.studio23.ss2.achievementsystem.steam/"><img src="https://img.shields.io/npm/v/com.studio23.ss2.achievementsystem.steam?label=openupm&amp;registry_uri=https://package.openupm.com" /></a>
 </p>
 
 This is an extention package for AchievementSystem that enables usage of Steam Achievements
