@@ -1,6 +1,6 @@
 {
     "name": "com.studio23.ss2.achievementsystem.steam",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "displayName": "achievementsystem.steam",
     "description": "This is an extension tool designed to simplify the process of creating folder structures required for Unity packages that are published on  openupm.com.",
     "unity": "2022.3",
@@ -37,7 +37,7 @@
         "url": "https://github.com/Studio-23-xyz/com.studio23.ss2.achievementsystem.steam.git"
     },
     "author": {
-        "name": "Studio-23",
+        "name": "Studio 23",
         "email": "contact@studio-23.xyz",
         "url": "https://studio-23.xyz"
     }
