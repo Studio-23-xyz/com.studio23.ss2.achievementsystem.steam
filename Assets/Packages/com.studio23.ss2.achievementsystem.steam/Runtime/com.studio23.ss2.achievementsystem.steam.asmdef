@@ -2,7 +2,8 @@
     "name": "com.studio23.ss2.achievementsystem.steam",
     "rootNamespace": "",
     "references": [
-        "GUID:d71212f901861074293b8c1e6f53d45f"
+        "GUID:d71212f901861074293b8c1e6f53d45f",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

@@ -225,7 +225,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1591362381}
   - component: {fileID: 1591362380}
-  - component: {fileID: 1591362379}
+  - component: {fileID: 1591362382}
   m_Layer: 0
   m_Name: SteamAchievements
   m_TagString: Untagged
@@ -233,20 +233,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1591362379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1591362378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ee076d5f42d780419e38a8a0c48dfaf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _mapper: {fileID: 11400000, guid: 22bdda6f1b7582d4aa163970c242f03b, type: 2}
-  SteamAppID: 480
 --- !u!114 &1591362380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,7 +245,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e770ffcecdf1e09418bf738728942621, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _achievementProvider: {fileID: 1591362379}
+  _platformProvider: 0
+  _achievementProvider: {fileID: 0}
+  _processingDelay: 2
+  OnInitializeComplete:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &1591362381
 Transform:
   m_ObjectHideFlags: 0
@@ -275,6 +266,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1591362382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591362378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a73708667c779c44eb3d8867d990767e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
